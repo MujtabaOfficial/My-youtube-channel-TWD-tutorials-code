@@ -1,0 +1,55 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+}
+
+#top-header{
+ background-color: rgba(0, 0, 0, 0.8);
+ position: fixed;
+ width: 100%;
+}
+
+.socail-icons{
+text-align: center;
+padding: 10px;
+}
+
+.fa{
+  /* font-size: 30px; */
+  width: 70px;
+  text-decoration: none;
+  margin: 1px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 3px;
+  border-radius: 50px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 3px;
+  border-radius: 50px;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  padding: 3px;
+  border-radius: 50px;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+  padding: 3px;
+  border-radius: 50px;
+}

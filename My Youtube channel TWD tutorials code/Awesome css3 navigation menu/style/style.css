@@ -1,0 +1,111 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(226,226,226);
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* utilities */
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* top header */
+#top{
+  background: rgb(54, 54, 54);
+}
+.socail-media{
+  float: left;
+}
+.contact-info{
+  float: right;
+}
+.socail-media a.fa{
+  margin: 5px;
+  cursor: pointer;
+  color: rgb(199, 187, 187);
+  font-size: 16px;
+  padding: 5px;
+  text-decoration: none;
+}
+.contact-info i.fa{
+  margin: 5px;
+  cursor: pointer;
+  color: rgb(223,219,219);
+  font-size: 16px;
+  padding: 5px;
+}
+
+/* navbar and logo */
+nav{
+  border-top: 2px solid rgb(95, 94, 94);
+  background-color: rgb(26, 26, 26);
+}
+.logo{
+  float: left;
+  width: 100px;
+}
+ul{
+  float: right;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  float: left;
+  font-size: 12px;
+  padding-top: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 3% ;
+}
+ul li a{
+  padding: 13px;
+  text-decoration: none;
+  color: #fff;
+}
+ul li a:hover{
+  color: red;
+  transition: 0.9s;
+}
+
+/* heading section */
+#headings{
+  background: linear-gradient(rgba(0,0,10,0.5), rgba(0,0,10,0.5)), url(../imgs/fitness2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.centered{
+  position:absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+.btn{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 16px;
+  padding: 12px;
+  border: 2px solid coral;
+  cursor: pointer;
+  border-radius: 50px;
+  text-align: center;
+  background-color:red;
+  width: 15%;
+}
+.btn:hover{
+  font-size: 18px;
+  transition: .8s;
+  background-color: unset;
+}

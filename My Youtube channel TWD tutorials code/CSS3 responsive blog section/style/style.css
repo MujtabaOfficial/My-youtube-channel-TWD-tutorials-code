@@ -1,0 +1,110 @@
+  body{
+    padding: 0px;
+    margin: 0px;  
+    background-color: rgb(248, 245, 245);
+    font-family: sans-serif;
+    line-height: 1.5; 
+   }  
+
+   #blog-sec .container{
+     width: 90%;
+     margin: auto;
+     overflow: hidden;
+   }
+  .main-heading{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:rgba(245, 59, 59, 1.6);
+    text-underline-position: under;
+    padding-top: 1%;
+  }
+
+  .container .para{
+    text-align: center;
+     width: 70%; 
+     margin-left: auto;
+      margin-right: auto; 
+      padding-bottom: 3%;
+    letter-spacing: 2px;
+  }
+
+.blog-pics{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  text-align: center;
+ }
+ .blog-head>p{
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* font-weight: bold; */
+  font-size: 16px;
+  letter-spacing: 2px;
+ }
+ .blog-head{
+  background-color: #fff;
+  position: relative;
+  bottom: 10%;
+  width: 70%;
+  float: left;
+  box-shadow: 3px 1px 5px #ccc;
+  border: 1px solid rgb(190, 187, 187);
+
+ }
+ .blog-date{
+  padding: 0px;
+  margin: 0px;
+  float: left;
+  background-color: rgba(245, 59, 59, 1.6);
+  color: #fff;
+  padding: 10px;
+ }
+ .blog-data{
+  font-weight: unset;
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+ }
+ .blog-btn{
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  /* background-color: red; */
+  background-color: rgba(245, 59, 59, 1.6);
+ font-size: 14px;
+  border-radius: 50px;
+  color: white;
+  padding: 3%;
+  cursor: pointer;
+ }
+ .blog-btn:hover{
+ background-color:  rgb(235, 50, 50);
+ font-size: 14px;
+ transition: .8s;
+ }
+
+   /* media queries */
+   @media (max-width: 768px){
+
+    #blog-sec .blog-pics{
+      display: block;
+      width: 90%;
+      text-align: center;
+      position: absolute;
+    }
+   
+    #blog-sec .blog-head{
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin: 4%;
+      /* position: relative; */
+      bottom: 55px;
+      width: 70%;
+    }
+
+   }
