@@ -1,0 +1,98 @@
+
+
+   body{
+    padding: 0px;
+    margin: 0px;  
+   /*background-color: rgb(226, 226, 226);*/
+    font-family: sans-serif;
+    line-height: 1.5; 
+    background-color: rgba(0,0,0,0.8);
+   }  
+
+/* pricing plan css */
+   #pricing{
+    margin-top: 3%;
+    margin-bottom: 4%;
+   }
+
+
+   #pricing .price{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+   }
+
+     .price{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 15px;
+     }
+
+     .price>div{
+      text-align: center;
+      background-color: #fff;
+       box-shadow: 3px 10px 5px #aaaaaa;
+     }
+     .plan-heading{
+      padding: 7px;
+      background-color: red;
+      color: #fff;
+      transform: skewY(-2deg);
+     }
+     .rate{
+      font-size: 14px;
+      color: #333;
+     }
+    .plan-detail h4:nth-child(even){
+      color: rgb(158, 157, 157);
+      text-align: center;     
+      border-bottom: 1px solid rgb(207, 204, 204);
+    }
+    .plan-btn{
+      width: 50%;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .plan-btn:hover{
+      background-color: red;
+      transition: .8s;
+      color: #fff;
+    }
+
+        button{
+      background-color: #fff;
+      cursor: pointer;
+      color: rgb(83, 83, 83);
+      border-radius: 30px;
+      padding: 15px;
+      border: 2px solid coral;
+      font-weight: bold;
+      width: 30%;
+      margin-bottom: 25px;
+     }
+  
+
+
+   /* end of pricing plan css */
+
+   
+
+       /* media queries */
+    @media (max-width: 768px){
+
+      #pricing .price{
+        display: block;
+        width: 95%;
+       margin-left: auto;
+       margin-right: auto;
+     
+      }
+
+        .plan-heading{
+      padding: 3px;
+      background-color: red;
+      color: #fff;
+       transform: skewY(0deg);
+     }
+
+  }
