@@ -25,4 +25,6 @@ I will keep updating this repository every week by adding advance and latest tut
 
 => Responsive Contact Us Design tutorial Using HTML5 and CSS3 grid system https://www.youtube.com/watch?v=SmEnloWUluM
 
+=> Responsive Pricing Plan using html and css https://www.youtube.com/watch?v=hcdP3IeZrTc
+
 more tutorials are coming..........
